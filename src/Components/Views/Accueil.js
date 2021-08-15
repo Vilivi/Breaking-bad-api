@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../CSS/CSS_Views/Accueil.css';
 
 const Accueil = () => {
     return (

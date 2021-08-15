@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../CSS/menuContainer.css";
+import "../../CSS/CSS_Views/menuContainer.css";
 import {Menu, MenuItem, ProSidebar, SidebarHeader, SidebarContent} from 'react-pro-sidebar';
 import { FaAngleUp, FaAngleRight, FaAngleLeft } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -12,8 +12,7 @@ const MenuContainer = () => {
 
     const menuItemArray = config.map((item, key) => {
         return <MenuItem key={key} icon={item.icon} >
-            {item.name}
-                <Link path to={item.url} />
+                <Link path to={item.url} >{item.name}</Link>
             </MenuItem>
     });
 
@@ -36,8 +35,7 @@ const MenuContainer = () => {
                 <SidebarContent>
                     <Menu>
                         <MenuItem icon={<FaAngleUp/>}>
-                        Root
-                            <Link exact path to="/"/>
+                            <Link exact path to="/" >Root</Link>
                         </MenuItem>
                         {menuItemArray}
                     </Menu>

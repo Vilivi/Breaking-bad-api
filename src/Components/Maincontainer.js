@@ -1,4 +1,5 @@
 import React from 'react';
+import "../CSS/mainContainer.css";
 import MenuContainer from './Views/MenuContainer';
 import ViewContainer from './Views/ViewContainer';
 

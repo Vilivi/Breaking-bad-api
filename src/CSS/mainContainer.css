@@ -1,0 +1,15 @@
+.mainContainer {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    grid-template-areas: "menuContainer viewContainer";
+    grid-template-rows: 1fr;
+}
+
+.mainContainer header {
+    grid-area: menuContainer;
+}
+
+.mainContainer .viewContainer {
+    grid-area: viewContainer;
+}

@@ -33,3 +33,16 @@
 .menuContainer .pro-sidebar-content .pro-menu-item {
     list-style-type: none;
 }
+
+.menuContainer .pro-sidebar-content .pro-menu-item .pro-inner-item span {
+    padding: 0 .25rem 0 .25rem;
+}
+
+.menuContainer .pro-sidebar-content .pro-menu-item a {
+    text-decoration: none;
+    color: #adadad;
+}
+
+.menuContainer .pro-sidebar-content .pro-menu-item a:hover {
+    color: #FFFF;
+}

@@ -13,13 +13,13 @@ const config = [
     {
         name: "Episodes",
         url: "/episodes",
-        dataUrl: `${baseURL}amiibo/episodes`,
+        dataUrl: `${baseURL}episodes`,
         icon: <FaThList/>
     },
     {
         name: "Quotes",
         url: "/quotes",
-        dataUrl: `${baseURL}amiibo/quotes`,
+        dataUrl: `${baseURL}quotes`,
         icon: <FaAlignCenter/>
     }
 ]; 
