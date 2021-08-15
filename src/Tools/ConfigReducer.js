@@ -6,17 +6,20 @@ const baseURL = "https://www.breakingbadapi.com/api/";
 const config = [
     {
         name: "Characters",
-        url: `${baseURL}characters`,
+        url: "/characters",
+        dataUrl: `${baseURL}characters`,
         icon: <FaChild/>
     },
     {
         name: "Episodes",
-        url: `${baseURL}amiibo/episodes`,
+        url: "/episodes",
+        dataUrl: `${baseURL}amiibo/episodes`,
         icon: <FaThList/>
     },
     {
         name: "Quotes",
-        url: `${baseURL}amiibo/quotes`,
+        url: "/quotes",
+        dataUrl: `${baseURL}amiibo/quotes`,
         icon: <FaAlignCenter/>
     }
 ]; 
