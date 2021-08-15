@@ -1,0 +1,35 @@
+.menuContainer {
+    height: 100%;
+    border-right: 1px solid white;
+    padding: 0 1rem 0 1rem;
+}
+
+/* Dans SidebarHeader */
+.menuContainer .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.menuContainer .header > div {
+    align-self: flex-end;
+    font-size: 2em;
+}
+
+.menuContainer .header > h1 {
+    font-size: 1.6em;
+}
+
+/* Dans SidebarContent */
+.menuContainer .pro-sidebar-content .pro-menu ul {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menuContainer .pro-sidebar-content .pro-menu-item {
+    list-style-type: none;
+}
