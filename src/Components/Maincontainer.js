@@ -6,6 +6,7 @@ const MainContainer = () => {
     return (
         <div className="mainContainer">
             <MenuContainer />
+            <ViewContainer />
         </div>
     );
 }
